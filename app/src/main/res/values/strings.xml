@@ -12,9 +12,11 @@
     <string name="hint_big_purpul_number">Big Purpul Number</string>
     <string name="hint_id_card_number">ID Card Number</string>
     <string name="view_data">View Data</string>
-    <string name="tv_num">TV_NUM</string>
-    <string name="tv_dob">TV_DOB</string>
-    <string name="tv_gender">TV_GENDER</string>
-    <string name="tv_province">TV_PROVINCE</string>
-    <string name="tv_civil_status">TV_CIVIL_STATUS</string>
+    <string name="tv_num">ID Number</string>
+    <string name="tv_dob">Date of Birth</string>
+    <string name="tv_gender">Gender</string>
+    <string name="tv_province">Province</string>
+    <string name="tv_civil_status">Civil Status</string>
+    <string name="tv_data">DATA</string>
+    <string name="fragment_result_desc">Calculation results will be show up here.</string>
 </resources>

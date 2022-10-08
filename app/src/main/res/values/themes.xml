@@ -34,11 +34,15 @@
     </style>
 
     <style name="FragmentTextView" parent="@style/TextAppearance.Material3.TitleLarge">
-        <item name="android:layout_marginBottom">@dimen/margin_5dp</item>
-        <item name="android:layout_weight">1</item>
+<!--        <item name="android:layout_marginBottom">@dimen/margin_5dp</item>-->
+<!--        <item name="android:layout_margin">@dimen/margin_5dp</item>-->
 <!--        <item name="android:gravity">center</item>-->
         <item name="android:padding">@dimen/margin_5dp</item>
 <!--        <item name="android:textSize">@dimen/text_20sp</item>-->
+
+    </style>
+
+    <style name="FragmentTextView.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 </resources>

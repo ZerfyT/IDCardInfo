@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ResultFragment">
+
+    <TextView
+        android:id="@+id/tv_num"
+        style="@style/FragmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_num" />
+
+    <TextView
+        android:id="@+id/tv_dob"
+        style="@style/FragmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_dob" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        style="@style/FragmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_gender" />
+
+    <TextView
+        android:id="@+id/tv_province"
+        style="@style/FragmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_province" />
+
+    <TextView
+        android:id="@+id/tv_civil"
+        style="@style/FragmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="@string/tv_civil_status" />
+</LinearLayout>

@@ -31,7 +31,8 @@
             android:id="@+id/ed_id_num"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_id_card_number" />
+            android:hint="@string/hint_id_card_number"
+            android:textColorHint="#546E7A" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -49,7 +50,8 @@
             android:id="@+id/ed_pup_num"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_big_purpul_number" />
+            android:hint="@string/hint_big_purpul_number"
+            android:textColorHint="#546E7A" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -69,10 +71,11 @@
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="@string/fragment_result_desc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/bt_view_data"/>
+        app:layout_constraintTop_toBottomOf="@+id/bt_view_data" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"

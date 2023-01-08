@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IDCardInfo 2</string>
+    <string name="welcome_text">Welcome to ID Card Info</string>
+    <string name="select_id_type">Please Select Your ID Card Type.</string>
+
+    <string name="title_old_id">Old ID Card</string>
+    <string name="title_new_id">New ID Card</string>
+    <string name="new_id_card_info_bt">New ID Card Info (After 2000)</string>
+    <string name="old_id_card_info_bt">Old ID Card Info (Before 2000)</string>
+    <string name="hint_big_purpul_number">Big Purpul Number</string>
+    <string name="hint_id_card_number">ID Card Number</string>
+    <string name="view_data">View Data</string>
+    <string name="tv_num">ID Number</string>
+    <string name="tv_dob">Date of Birth</string>
+    <string name="tv_gender">Gender</string>
+    <string name="tv_province">Province</string>
+    <string name="tv_civil_status">Civil Status</string>
+    <string name="tv_data">DATA</string>
+    <string name="fragment_result_desc">Calculation results will be show up here.</string>
+    <string name="hello_blank_fragment">
+        Hello
+        blank
+        fragment
+    </string>
+</resources>

@@ -3,17 +3,17 @@
     <style name="Theme.IDCardInfoK" parent="Theme.Material3.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">
-            @color/purple_500
+            @color/theme_primary
         </item>
         <item name="colorPrimaryVariant">
-            @color/purple_700
+            @color/theme_primary_variant
         </item>
         <item name="colorOnPrimary">
-            @color/white
+            @color/black
         </item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">
-            @color/teal_200
+            @color/theme_secondary
         </item>
         <item name="colorSecondaryVariant">
             @color/teal_700
@@ -23,7 +23,7 @@
         </item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">
-            ?attr/colorPrimaryVariant
+            @color/black
         </item>
         <!-- Customize your theme here. -->
     </style>
@@ -43,7 +43,7 @@
             bold
         </item>
         <item name="android:padding">
-            10dp
+            16dp
         </item>
     </style>
 

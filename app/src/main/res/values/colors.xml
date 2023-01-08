@@ -21,4 +21,8 @@
     <color name="white">
         #FFFFFFFF
     </color>
+
+    <color name="theme_primary">#E57373</color>
+    <color name="theme_primary_variant">#EF5350</color>
+    <color name="theme_secondary">#4DB6AC</color>
 </resources>
